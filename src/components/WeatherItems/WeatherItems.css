@@ -1,0 +1,51 @@
+.articleWeather {
+  position: relative;
+  background-color: #ffffff3a;
+  width: 100%;
+  margin: 10px;
+  padding-top: 5px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.articleWeather h2 {
+  font-size: 33px;
+  text-align: center;
+  cursor: pointer;
+}
+.articleWeather img {
+  width: 300px;
+}
+.articleWeather h3 {
+  position: absolute;
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  text-align: end;
+}
+.articleWeather div {
+  margin-top: 20px;
+}
+.articleWeather p {
+  margin-left: 40px;
+  text-align: start;
+  font-size: 30px;
+}
+.articleWeather p span{
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  .articleWeather {
+    width: 530px;
+  }
+  .articleWeather h3 {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .articleWeather {
+    width: 700px;
+  }
+  
+}

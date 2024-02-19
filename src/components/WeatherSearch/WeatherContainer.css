@@ -1,0 +1,49 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 94px;
+  padding: 3px;
+}
+.navContainer .formWeather {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 40px;
+  margin: 15px 0 5px 0;
+  padding: 3px;
+  background-color: #F6F6F6;
+  border: 1px solid #8E8E8E;
+  border-radius: 20px;
+}
+.navContainer .formWeather input {
+  background-color: transparent;
+  border: none;
+  margin-left: 3px;
+  padding:5px;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+}
+.navContainer .formWeather button {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #8E8E8E;
+  padding: 5px;
+  cursor: pointer;
+}
+.navContainer .formWeather button i {
+  font-size: 24px;
+  margin: 0;
+  color: #8E8E8E;
+}
+.ContainerWeather {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .navContainer .formWeather {
+    width: 873px;
+  }
+}
